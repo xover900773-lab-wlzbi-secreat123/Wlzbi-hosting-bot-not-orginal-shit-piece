@@ -60,9 +60,9 @@ UPLOAD_BOTS_DIR = os.path.join(BASE_DIR, 'upload_bots')
 IROTECH_DIR = os.path.join(BASE_DIR, 'inf')
 DATABASE_PATH = os.path.join(IROTECH_DIR, 'bot_data.db')
 
-FREE_USER_LIMIT = 200
-SUBSCRIBED_USER_LIMIT = 999
-ADMIN_LIMIT = 999
+FREE_USER_LIMIT = 0
+SUBSCRIBED_USER_LIMIT = 10
+ADMIN_LIMIT = 100
 OWNER_LIMIT = float('inf')
 
 os.makedirs(UPLOAD_BOTS_DIR, exist_ok=True)
